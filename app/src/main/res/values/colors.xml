@@ -17,4 +17,5 @@
     <color name="background">@color/white</color>
 
     <color name="unselected_chip">@color/primary</color>
+    <color name="backgraound_weather">#FAFAFA</color>
 </resources>
