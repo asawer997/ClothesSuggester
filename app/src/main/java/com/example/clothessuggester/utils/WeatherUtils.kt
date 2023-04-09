@@ -27,21 +27,28 @@ fun updateWeatherInfo(
 fun getRandomImageForTemperature(temperature: Double, lastClothName: Int?): Int {
     val coldImages = listOf(
         R.drawable.winter_1,
+        R.drawable.winter_2,
+        R.drawable.winter_3,
+        R.drawable.winter_4,
+        R.drawable.winter_5,
         R.drawable.winter_6,
         R.drawable.winter_7,
-        R.drawable.winter8,
+        R.drawable.winter_8,
         R.drawable.winter_9,
+
     )
-    val normalImages = listOf(R.drawable.normal_1)
+    val normalImages = listOf(R.drawable.normal_1, R.drawable.nurmal_2,)
     val hotImages = listOf(
-        R.drawable.summer1,
-        R.drawable.summer2,
-        R.drawable.summer3,
-        R.drawable.summer4,
-        R.drawable.summer5,
+        R.drawable.summer_1,
+        R.drawable.summer_2,
+        R.drawable.summer_3,
+        R.drawable.summer_4,
+        R.drawable.summer_5,
+        R.drawable.summer_6,
         R.drawable.summer_7,
         R.drawable.summer_8,
-        R.drawable.summer9,
+        R.drawable.summer_9,
+        R.drawable.summer_10,
     )
 
     val images = when {
