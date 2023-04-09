@@ -23,10 +23,7 @@
     <item name="chipEndPadding">8dp</item>
 </style>
     <style name="shapePhoto" parent="">
-        <item name="cornerFamily">rounded</item>
-        <item name="cornerSizeTopRight">@dimen/radius_medium</item>
-        <item name="cornerSizeTopLeft">@dimen/radius_medium</item>
-        <item name="cornerSizeBottomLeft">@dimen/radius_medium</item>
-        <item name="cornerSizeBottomRight">@dimen/radius_medium</item>
+     <item name="cardCornerRadius" >@dimen/spacing_medium</item>
+
     </style>
 </resources>

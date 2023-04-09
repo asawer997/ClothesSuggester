@@ -3,10 +3,10 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-    <color name="primary">#BDCDD6</color>
+    <color name="primary">#ACDEF3</color>
     <color name="on_primary">@color/white</color>
 
-    <color name="secondary">#53ADE0</color>
+    <color name="secondary">#DE53ADE0</color>
     <color name="on_secondary">@color/tertiary_38</color>
 
     <color name="tertiary_87">#DE000000</color>
