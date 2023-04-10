@@ -11,6 +11,7 @@ import java.text.SimpleDateFormat
 import java.util.*
 import kotlin.math.ceil
 
+object WeatherUtils{
 fun updateWeatherInfo(
     context: Context,
     weatherInfo: WeatherInfo,
@@ -84,4 +85,5 @@ fun updateClothImage(
 fun getDayNameFromTimestamp(timestamp: Long): String {
     val date = Date(timestamp * 1000L)
     return SimpleDateFormat("EEEE dd, MMMM", Locale.getDefault()).format(date)
+}
 }
