@@ -26,7 +26,7 @@
         android:layout_marginEnd="@dimen/spacing_medium"
         android:drawableStart="@drawable/map_point"
         android:fontFamily="@font/roboto_medium"
-        android:text="@string/iraq"
+        android:text="@string/baghdad"
         android:textColor="@color/tertiary_60"
         android:textSize="@dimen/font_size_title"
         android:drawablePadding="@dimen/spacing_small"
@@ -102,9 +102,9 @@
         android:id="@+id/clothePic"
         android:layout_width="match_parent"
         android:layout_height="@dimen/zero"
-        android:scaleType="centerCrop"
+       android:scaleType="fitCenter"
         android:layout_margin="@dimen/spacing_medium"
-        android:src="@drawable/winter_6"
+        android:src="@drawable/summer8"
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Suggestion" />
