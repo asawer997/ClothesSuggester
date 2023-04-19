@@ -18,4 +18,8 @@
 
     <color name="unselected_chip">@color/primary</color>
     <color name="backgraound_weather">#FAFAFA</color>
+
+
+    <color name="dark">#1C274C</color>
+
 </resources>
